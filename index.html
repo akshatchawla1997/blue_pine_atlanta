@@ -281,10 +281,10 @@ Explore Floor Plans
 </div>
 <span class="font-label-caps text-xs text-zinc-500 uppercase tracking-widest">Or submit your inquiry below:</span>
 </div>
-<form class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-end" onsubmit="event.preventDefault(); alert('Inquiry received. The Atlantis Private Concierge will contact you at +91 9762550035.');">
+<form id="form1" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-end" onsubmit="event.preventDefault(); alert('Inquiry received. The Atlantis Private Concierge will contact you at +91 9762550035.');">
 <div class="flex flex-col gap-1.5">
 <label class="font-label-caps text-[11px] uppercase tracking-wider text-zinc-700 font-semibold">Preferred Residence</label>
-<select class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 font-body-md text-sm focus:outline-none focus:border-[#785a00]">
+<select name="Residence" class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 font-body-md text-sm focus:outline-none focus:border-[#785a00]">
 <option value="4bhk-type-a">Type-A: 4 BHK Luxury Suite (3,750 Sq.Ft.)</option>
 <option value="4bhk-type-b">Type-B: 4 BHK Hill-View (3,750 Sq.Ft.)</option>
 <option value="3bhk-type-c">Type-C: 3 BHK Haven (2,600 Sq.Ft.)</option>
@@ -292,11 +292,11 @@ Explore Floor Plans
 </div>
 <div class="flex flex-col gap-1.5">
 <label class="font-label-caps text-[11px] uppercase tracking-wider text-zinc-700 font-semibold">Your Full Name</label>
-<input class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="e.g. Vikramaditya Singhania" required="" type="text"/>
+<input name="Name" class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="e.g. Vikramaditya Singhania" required="" type="text"/>
 </div>
 <div class="flex flex-col gap-1.5">
 <label class="font-label-caps text-[11px] uppercase tracking-wider text-zinc-700 font-semibold">Phone Number</label>
-<input class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="+91 9762550035" required="" type="tel"/>
+<input name="Phone" class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="+91 9762550035" required="" type="tel"/>
 </div>
 <div>
 <button class="w-full py-2.5 px-4 rounded bg-[#785a00] hover:bg-[#5a4300] text-white font-label-caps text-xs uppercase tracking-wider font-semibold transition-colors flex items-center justify-center gap-2 h-[42px] shadow-sm" type="submit">
@@ -742,23 +742,23 @@ Explore Floor Plans
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 <a class="block rounded-xl border border-[#d1c5b0] bg-[#F3E6DD] p-3 hover:border-[#b89028] transition-colors" href="public/ARCHITECTURAL%20LAYOUTS/2)%20RECEPTION/Reception%20Layout.jpg" target="_blank" rel="noopener">
 <img alt="Reception floor layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-2-reception-reception-layout.jpg"/>
-<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Reception Layout</span>
+<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Reception</span>
 </a>
 <a class="block rounded-xl border border-[#d1c5b0] bg-[#F3E6DD] p-3 hover:border-[#b89028] transition-colors" href="public/ARCHITECTURAL%20LAYOUTS/3)%20BASEMENT%20LVL%202/basement%20lvl2.jpg" target="_blank" rel="noopener">
-<img alt="Basement level 2 floor layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-3-basement-lvl-2-basement-lvl2.jpg"/>
-<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Basement Level 2</span>
+<img alt="Basement 2 floor layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-3-basement-lvl-2-basement-lvl2.jpg"/>
+<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Basement 2</span>
 </a>
 <a class="block rounded-xl border border-[#d1c5b0] bg-[#F3E6DD] p-3 hover:border-[#b89028] transition-colors" href="public/ARCHITECTURAL%20LAYOUTS/4)%20BASEMENT%20LVL%203/BASEMENT%20FLOOR%20LVL%203.jpg" target="_blank" rel="noopener">
-<img alt="Basement level 3 floor layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-4-basement-lvl-3-basement-floor-lvl-3.jpg"/>
-<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Basement Level 3</span>
+<img alt="Basement 1 floor layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-4-basement-lvl-3-basement-floor-lvl-3.jpg"/>
+<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Basement 1</span>
 </a>
 <a class="block rounded-xl border border-[#d1c5b0] bg-[#F3E6DD] p-3 hover:border-[#b89028] transition-colors" href="public/ARCHITECTURAL%20LAYOUTS/5)%20TYPICAL%20FLOORS/LAYOUTS.jpg" target="_blank" rel="noopener">
-<img alt="Typical floors layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-5-typical-floors-layouts.jpg"/>
-<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Typical Floors</span>
+<img alt="Stilt floor layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-5-typical-floors-layouts.jpg"/>
+<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Stilt</span>
 </a>
 <a class="block rounded-xl border border-[#d1c5b0] bg-[#F3E6DD] p-3 hover:border-[#b89028] transition-colors" href="public/ARCHITECTURAL%20LAYOUTS/6)%20ROOFTOP/Roof%20Top.jpg" target="_blank" rel="noopener">
 <img alt="Rooftop floor layout drawing" class="w-full aspect-[16/9] object-contain rounded-lg bg-white" loading="lazy" decoding="async" src="public/optimized/architectural-layouts-6-rooftop-roof-top.jpg"/>
-<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Rooftop Layout</span>
+<span class="font-title-md text-sm text-zinc-900 font-bold block mt-2">Rooftop</span>
 </a>
 </div>
 </div>
@@ -1051,22 +1051,23 @@ Explore Floor Plans
 </div>
 </div>
 <!-- Form -->
-<form class="grid grid-cols-1 md:grid-cols-2 gap-space-md" onsubmit="event.preventDefault(); document.getElementById('booking-done').classList.remove('hidden');">
+
+<form id="form2" class="grid grid-cols-1 md:grid-cols-2 gap-space-md" onsubmit="event.preventDefault(); document.getElementById('booking-done').classList.remove('hidden');">
 <div class="flex flex-col gap-1.5">
 <label class="font-label-caps text-[11px] uppercase tracking-wider text-zinc-700 font-semibold">Full Name *</label>
-<input class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="e.g. Dr. Rajeshwar Chauhan" required="" type="text"/>
+<input name="Name" class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="e.g. Dr. Rajeshwar Chauhan" required="" type="text"/>
 </div>
 <div class="flex flex-col gap-1.5">
 <label class="font-label-caps text-[11px] uppercase tracking-wider text-zinc-700 font-semibold">Email Address *</label>
-<input class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="chauhan@domain.com" required="" type="email"/>
+<input name="Email" class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="chauhan@domain.com" required="" type="email"/>
 </div>
 <div class="flex flex-col gap-1.5">
 <label class="font-label-caps text-[11px] uppercase tracking-wider text-zinc-700 font-semibold">Phone (WhatsApp) *</label>
-<input class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="+91 9762550035" required="" type="tel"/>
+<input name="Phone" class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 placeholder:text-zinc-400 font-body-md text-sm focus:outline-none focus:border-[#785a00]" placeholder="+91 9762550035" required="" type="tel"/>
 </div>
 <div class="flex flex-col gap-1.5">
 <label class="font-label-caps text-[11px] uppercase tracking-wider text-zinc-700 font-semibold">Preferred Residence</label>
-<select class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 font-body-md text-sm focus:outline-none focus:border-[#785a00]">
+<select name="Residence" class="w-full px-3.5 py-2.5 rounded bg-[#F3E6DD] border border-[#d1c5b0] text-zinc-900 font-body-md text-sm focus:outline-none focus:border-[#785a00]">
 <option value="type-a">Type-A: 4 BHK Luxury Suite (3,750 Sq.Ft.)</option>
 <option value="type-b">Type-B: 4 BHK Hill-View (3,750 Sq.Ft.)</option>
 <option value="type-c">Type-C: 3 BHK Mountain Haven (2,600 Sq.Ft.)</option>
@@ -1111,14 +1112,14 @@ Call +91 9762550035
 <span class="font-label-caps text-[10px] uppercase tracking-widest text-[#ffdf9b] font-semibold mt-2">MDDA Approved • RERA: UKREP09250000673</span>
 </div>
 <div class="flex flex-col gap-2.5">
-<span class="font-headline-sm text-lg text-white uppercase font-normal">Private Concierge Desk</span>
-<p class="font-body-sm text-xs text-zinc-400">Mussoorie Foothills Bypass Road, Malsi Green Belt, Dehradun, Uttarakhand 248003</p>
-<div class="flex flex-col gap-1.5 mt-1">
-<a class="font-label-caps text-sm text-[#ffdf9b] font-bold hover:underline flex items-center gap-1.5" href="tel:+919762550035">
-<span class="material-symbols-outlined text-sm">phone_in_talk</span>
-<span class="">Direct Hotline: +91 9762550035</span>
-</a>
-<span class="font-body-sm text-xs text-zinc-300">VIP Inquiries: concierge@atlantisheights.com</span>
+<span class="font-headline-sm text-base sm:text-lg text-white uppercase font-normal leading-tight">VASUNDHRA DEVBHOOMI INFRABUILD LLP</span>
+<p class="font-body-sm text-xs text-zinc-400 leading-relaxed">
+  Atlantis Heights, Kuthal Gate, Mussoorie Road, Dehradun-248001
+</p>
+<div class="flex flex-col gap-1.5 mt-1 font-body-sm text-xs text-zinc-400">
+<span class="block">Phone: <a href="tel:+919762450035" class="hover:text-[#ffdf9b] transition-colors">+91-9762450035</a>, <a href="tel:+91976250035" class="hover:text-[#ffdf9b] transition-colors">+91-976250035</a></span>
+<span class="block">Web: <a href="https://theatlantisheights.com" target="_blank" class="hover:text-[#ffdf9b] transition-colors">theatlantisheights.com</a></span>
+<span class="block">Email: <a href="mailto:theatlantisheights@gmail.com" class="hover:text-[#ffdf9b] transition-colors">theatlantisheights@gmail.com</a></span>
 </div>
 </div>
 <div class="flex flex-col gap-2.5">
@@ -1150,6 +1151,7 @@ Call +91 9762550035
 </div>
 </footer>
 <script>
+  // --- EXISTING NAVIGATION CODE ---
   const mainNavLinks = document.querySelectorAll("header nav a");
   mainNavLinks.forEach((link) => {
     link.addEventListener("click", () => {
@@ -1157,5 +1159,43 @@ Call +91 9762550035
       link.setAttribute("aria-current", "page");
     });
   });
+
+  // --- NEW GOOGLE SHEET CONNECTION CODE ---
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxkIuaYMdfZafVtk_HsWC_8thehT3kv-WZB56X2m4j_B-9JQP7p__-NOY0fHA-uJLo/exec';
+
+  // Handle Form 1 (Quick Inquiry)
+  const form1 = document.getElementById('form1');
+  if (form1) {
+    form1.addEventListener('submit', e => {
+      e.preventDefault();
+      const formData = new FormData(form1);
+      formData.append('Source', 'Top Inquiry Form'); 
+      
+      fetch(scriptURL, { method: 'POST', body: new URLSearchParams(formData) })
+        .then(response => {
+          alert('Inquiry received. The Atlantis Private Concierge will contact you shortly.');
+          form1.reset();
+        })
+        .catch(error => alert('Error! Please try again.'));
+    });
+  }
+
+  // Handle Form 2 (VIP Site Visit)
+  const form2 = document.getElementById('form2');
+  if (form2) {
+    form2.addEventListener('submit', e => {
+      e.preventDefault();
+      const formData = new FormData(form2);
+      formData.append('Source', 'VIP Site Visit Form');
+      
+      fetch(scriptURL, { method: 'POST', body: new URLSearchParams(formData) })
+        .then(response => {
+          document.getElementById('booking-done').classList.remove('hidden'); 
+          form2.reset();
+        })
+        .catch(error => alert('Error! Please try again.'));
+    });
+  }
 </script>
 </body></html>
+
